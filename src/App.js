@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./Demo.css";
+import "./components/leftat.css";
+import "./components/index.css";
+import Arrive from "./components/index";
+import Trending from "./components/trending";
+import Navbar from "./components/Navbar";
+import Write from "./components/leftat";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+        <div className="header">
+            <Navbar />
+            <Write />
+            <Arrive/>
+            <Trending/>
+        </div>
+        </>
+    );
 }
 
 export default App;
+

@@ -1,0 +1,28 @@
+/* .March{
+    text-align: center;
+} */
+
+.shoe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shoe h1{
+    font-size: 100px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+#two{
+    width: 200px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+#one{
+    width: 200px;
+    border-radius: 50px;
+}
